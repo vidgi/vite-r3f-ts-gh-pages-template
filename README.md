@@ -1,15 +1,16 @@
-# Vite React Three Fiber (R3F) + TypeScript + github pages Template
+# vite react three fiber (r3f) + typescript + github pages template
 
 forked from https://github.com/pachoclo/vite-r3f-ts-template
 
-## 🕹️ Commands
+## 🕹️ commands
 
-`npm i`
+### to run locally:
 
-`npm run dev`
+- `npm i`
 
-`npm run build`
+- `npm run dev`
 
-`npm run preview`
+### to deploy to github pages:
 
-`npm run deploy` for github pages
+- `npm run build`
+- `npm run deploy`
