@@ -1,0 +1,38 @@
+{
+  "name": "vite-r3f-ts-template",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "homepage": "https://vidgi.github.io/vite-r3f-ts-gh-pages-template",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.3",
+    "@types/three": "^0.164.0",
+    "leva": "^0.9.35",
+    "r3f-perf": "^7.2.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.164.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "gh-pages": "^4.0.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "printWidth": 90,
+    "jsxSingleQuote": true
+  }
+}
